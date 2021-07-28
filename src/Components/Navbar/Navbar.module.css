@@ -1,0 +1,34 @@
+.navbarWrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: teal;
+}
+.logo > img{
+    width: 10%;
+    border-radius: 25px;
+}
+.navbarLeftWrapper{
+    display: flex;
+    align-items: center;
+}
+.navbarLeftWrapper > div{
+    margin: 1%;
+    opacity: 0.8;
+}
+.navbarRightWrapper{
+    display: flex;
+    padding: 1%;
+}
+.navbarRightButton{
+    width: 100%;
+}
+.navbarRightWrapper > div > img{
+    width: 50%;
+    border-radius: 100px;
+}
+.navbarRightWrapper > div > button{
+    width: fit-content;
+    margin: 1%;
+    letter-spacing: 0.1ch;
+    font-size: 25px;
+}
